@@ -17,5 +17,9 @@ namespace DiscoveryApplication
         {
             InitializeComponent();
         }
+        private void Goto_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MapPage());
+        }
     }
 }

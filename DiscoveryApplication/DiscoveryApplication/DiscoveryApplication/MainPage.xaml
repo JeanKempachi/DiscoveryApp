@@ -11,6 +11,7 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button x:Name="goto" Text="go" Clicked="Goto_Clicked"/>
     </StackLayout>
 
 </ContentPage>
