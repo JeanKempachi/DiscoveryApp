@@ -9,4 +9,5 @@
 
     <local:MapPage Title="Map"/>
     <local:ReportPage Title="Reports"/>
+    
 </TabbedPage>

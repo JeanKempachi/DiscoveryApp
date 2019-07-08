@@ -8,5 +8,12 @@
               VerticalOptions="FillAndExpand"
               MapType="Street"
               IsShowingUser="True"/>
-
+    
+    <ContentPage.Content>
+        
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+        <SearchBar x:Name="searchFor" Placeholder="Search" Text="{Binding Path=SearchText}" TextChanged="SearchFor_TextChanged"  SearchButtonPressed="SearchFor_SearchButtonPressed" />
+        <StackLayout x:Name="segmentStax" Padding="10,5,10,10"/>
+    </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

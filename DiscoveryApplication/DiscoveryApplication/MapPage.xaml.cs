@@ -106,5 +106,14 @@ namespace DiscoveryApplication
             locations.MoveToRegion(new Xamarin.Forms.Maps.MapSpan(center, 1, 1));
         }
 
+        private void SearchFor_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void SearchFor_SearchButtonPressed(object sender, EventArgs e)
+        {
+            DisplayAlert("Hey", "Your mom gay", "Okay");
+        }
     }
 }
