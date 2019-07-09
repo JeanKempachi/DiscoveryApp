@@ -7,9 +7,7 @@
              x:Class="DiscoveryApplication.ReportPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to the report page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnHiReport" Text="Report Hijacking" Clicked="BtnHiReport_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

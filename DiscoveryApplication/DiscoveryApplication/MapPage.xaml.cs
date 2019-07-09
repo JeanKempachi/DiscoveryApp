@@ -16,6 +16,7 @@ namespace DiscoveryApplication
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
+        public int test = 2;
         private bool hasLocationPermission = false;
         public MapPage()
         {
